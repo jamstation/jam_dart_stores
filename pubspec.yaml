@@ -1,0 +1,25 @@
+name: jam_dart_stores
+description: A library of redux stores for all jamstation dart apps
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  # Dart Packages
+  meta: ^1.1.6
+
+  # Jam Packages
+  jam_dart_interfaces:
+    path: ../interfaces
+  jam_dart_models:
+    path: ../models
+
+  # Stream Framework Packages
+  rxdart: ^0.18.0
+
+  # State Management Packages
+  redux: ^3.0.0
+  redux_epics: ^0.10.2
+
+dev_dependencies:
